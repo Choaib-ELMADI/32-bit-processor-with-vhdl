@@ -1,0 +1,11 @@
+programme_counter.vhd
+*.vwf
+*.bak
+*.qpf
+*.qsf
+*.qws
+
+db
+incremental_db
+output_files
+simulation
