@@ -2,14 +2,14 @@ library ieee;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
 
-entity comparator is
+entity comparator_32_bits is
     port (
         a, b : in  std_logic_vector(31 downto 0);
         r    : out std_logic_vector(31 downto 0)
     );
 end entity;
 
-architecture comparator_arch of comparator is
+architecture comparator_32_bits_arch of comparator_32_bits is
 
     signal a_signed, b_signed : signed(31 downto 0);
     signal res                : std_logic_vector(1 downto 0);
